@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./logo.png" alt="Context-Driven Development logo" width="240">
+</p>
+
 # Context-Driven Development
 
 **Control the context. Control the outcome.**

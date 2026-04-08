@@ -43,6 +43,7 @@ Later public work may include:
 - lightweight reference tooling
 - context assembly examples
 - validation helpers
+- ecosystem integrations around compatible local-first memory tooling
 - open reference implementations of selected parts of the method
 
 This work should follow the docs, not outrun them.

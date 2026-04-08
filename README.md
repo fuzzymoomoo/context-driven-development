@@ -147,6 +147,14 @@ CDD is a methodology first.
 
 Reference stacks, tools, and editor experiences can help express it, but they are not required to understand the method. This repository is intentionally focused on the portable theory layer.
 
+## Compatible Memory Layers
+
+CDD does not depend on one memory system.
+
+But structured, local-first memory layers are a natural fit when teams want durable recall, better handoffs, and stronger provenance across long-running work.
+
+One public bridge in that direction is `cdd-mempalace`, which explores how MemPalace can support Context-Driven Development workflows without redefining CDD itself.
+
 ## License
 
 This repository is licensed under the GNU Affero General Public License v3.0. See [LICENSE](./LICENSE).

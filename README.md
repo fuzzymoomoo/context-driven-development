@@ -25,6 +25,13 @@ In practice, that means:
 - outputs are validated before they become future truth
 - successful patterns are fed back into the system as reusable capability
 
+CDD also benefits from a clear delivery hierarchy:
+
+- phases describe longer-arc system evolution
+- waves describe the current bounded, cross-cutting slice of delivery
+- stages describe the execution mode inside the model
+- tasks are emitted operational units, not the main source of truth
+
 CDD is designed to make software work more understandable, repeatable, and auditable across humans, AI systems, and deterministic generators.
 
 ## Why it exists
@@ -47,6 +54,20 @@ CDD's basic loop is:
 The broader operating model extends that into:
 
 `Context Delta -> Plan Selection -> Context Assembly -> Plan Validation -> Task Emission -> Execution -> Output Validation -> Context Update -> History / Generalization`
+
+## Delivery shape
+
+CDD is not tied to agile sprint language.
+
+In practice, teams often need a unit of delivery that is:
+
+- bigger than a single task
+- smaller than a major phase
+- broad enough to touch UI, docs, code, validation, and handoff together
+
+CDD calls that a **wave**.
+
+A wave is the coherent unit of current delivery selected from a broader plan. It helps teams coordinate cross-cutting implementation without pretending that backlog tickets or calendar sprints are the real source of truth.
 
 ## Two kinds of execution
 

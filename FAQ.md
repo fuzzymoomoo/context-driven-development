@@ -48,6 +48,18 @@ No.
 
 CDD makes planning and review more structured. It does not remove the need for judgment, validation, or governance.
 
+## How is a wave different from a sprint or a stage?
+
+A **wave** is a bounded, cross-cutting delivery slice chosen from a broader plan for current execution.
+
+It is not the same as:
+
+- a **sprint**, which is usually a time box
+- a **stage**, which is a defined execution mode in the CDD model
+- a **task**, which is an emitted operational unit
+
+Teams often need a practical unit for "the coordinated body of change we are doing now." In CDD, that is the wave.
+
 ## Why is this first public release docs-only?
 
 Because the methodology needs to be clear before any public reference tooling can be responsibly shaped around it.

@@ -20,9 +20,21 @@ Whether the available context is good enough to justify execution of a stage.
 
 The network of linked contexts that influence one another across strategic, operational, execution, and reflective concerns.
 
+## Phase
+
+A major architectural or maturity step in the evolution of a system or method.
+
+## Workstream
+
+An enduring area of responsibility or concern that continues across multiple plans, waves, or implementations.
+
+## Wave
+
+A bounded, cross-cutting delivery slice selected from a broader plan for current execution. A wave is larger than a task, smaller than a long strategic phase, and usually spans multiple relevant surfaces while staying unified by one central outcome.
+
 ## Stage
 
-A unit of work with defined context requirements, expected outputs, and validation rules.
+A unit of execution with defined context requirements, expected outputs, and validation rules. Stages describe how work is performed inside the CDD model; they are distinct from phases or waves.
 
 ## Stage Mode
 
@@ -34,7 +46,7 @@ A validated semantic response to one or more contexts. Plans interpret context, 
 
 ## Task
 
-An executable unit emitted from a validated plan. Tasks are operational, not the primary source of truth.
+An executable unit emitted from a validated plan. Tasks are operational, not the primary source of truth, and may be grouped under a broader wave of delivery.
 
 ## Output
 

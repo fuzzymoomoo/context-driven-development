@@ -220,6 +220,25 @@ They should never float without meaning. Every task should trace back to:
 
 Tasks are operational.
 
+### Waves
+
+Waves are bounded delivery slices selected from a broader plan for current execution.
+
+A wave may coordinate:
+
+- multiple plans
+- multiple tasks
+- multiple outputs
+- multiple affected surfaces
+
+The important doctrine is:
+
+- a wave is a useful coordination unit
+- a wave is not the primary source of truth
+- the underlying truth still lives in contexts, plans, outputs, and their history
+
+In practice, waves are often the cleanest unit for handoff, validation, and resumable delivery.
+
 ### Outputs
 
 Outputs are the results of execution.
@@ -280,6 +299,17 @@ The model depends on a few strict rules:
 4. Every important change should leave history.
 5. Generalization requires governance.
 6. Prediction is advisory only.
+
+## Practical delivery hierarchy
+
+CDD benefits from a clear distinction between several levels of coordination:
+
+- **phase**: a longer-arc maturity or architectural progression
+- **wave**: the current bounded, cross-cutting delivery slice
+- **stage**: the execution mode inside the CDD model
+- **task**: an emitted operational unit
+
+Keeping these separate helps teams avoid treating time boxes, ticket lists, or UI projections as the real control surface.
 
 ## Practical doctrine statements
 

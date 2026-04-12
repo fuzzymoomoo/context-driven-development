@@ -74,6 +74,27 @@ This includes work such as:
 
 CDD exists to handle both modes coherently.
 
+## Delivery needs coherent slices
+
+Long-running work often needs a coordination unit that is bigger than a single task and smaller than a major strategic phase.
+
+CDD calls that unit a **wave**.
+
+A wave is:
+
+- bounded
+- cross-cutting
+- selected from a broader plan for current execution
+- expected to leave the system in a more usable and more stable state
+
+This is different from:
+
+- a **phase**, which describes longer-arc evolution
+- a **stage**, which describes the execution mode inside the CDD model
+- a **task**, which is an emitted operational unit
+
+The practical value of the term is simple: it gives teams a clean way to talk about the current body of coordinated change without collapsing everything into stories, sprints, or vague workstreams.
+
 ## Validation is part of the method
 
 CDD does not stop at generation or execution.

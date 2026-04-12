@@ -15,6 +15,7 @@ Near-term work:
 - expand the glossary and FAQ
 - publish more worked examples
 - clarify planning modes, context sufficiency, and output contracts
+- clarify the delivery terminology around phases, waves, stages, and tasks
 
 Success looks like:
 
